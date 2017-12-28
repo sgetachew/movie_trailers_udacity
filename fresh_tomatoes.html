@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Fresh Tomatoes!</title>
-
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">.
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
@@ -19,7 +19,7 @@
             width: 640px;
             height: 480px;
         }
-            .navbar {
+        .navbar {
             # background: #0294c9;
             background: #016697;
             border: none;
@@ -58,9 +58,13 @@
             top: 0;
             background-color: white;
         }
-        .logo {
-            fill: white;
+        @media screen and (max-width: 780px) {
+            .poster-image {
+                width: 100%;
+                height: 100%;
+            }
         }
+
     </style>
     <script type="text/javascript" charset="utf-8">
         // Pause the video when the modal is closed
@@ -116,27 +120,27 @@
     <div class="container">
       
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="tFMo3UJ4B4g" data-toggle="modal" data-target="#trailer">
-    <img src="https://upload.wikimedia.org/wikipedia/en/d/df/Arrival%2C_Movie_Poster.jpg" width="220" height="342">
+    <img src="https://upload.wikimedia.org/wikipedia/en/d/df/Arrival%2C_Movie_Poster.jpg" width="220" height="342" class="poster-image">
     <h2>Arrival</h2>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="ngiK1gQKgK8" data-toggle="modal" data-target="#trailer">
-    <img src="https://upload.wikimedia.org/wikipedia/en/6/67/Wonder_%28film%29.png" width="220" height="342">
+    <img src="https://upload.wikimedia.org/wikipedia/en/6/67/Wonder_%28film%29.png" width="220" height="342" class="poster-image">
     <h2>Wonder</h2>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="-9ceBgWV8io" data-toggle="modal" data-target="#trailer">
-    <img src="http://upload.wikimedia.org/wikipedia/id/b/b0/Avatar-Teaser-Poster.jpg" width="220" height="342">
+    <img src="http://upload.wikimedia.org/wikipedia/id/b/b0/Avatar-Teaser-Poster.jpg" width="220" height="342" class="poster-image">
     <h2>Avatar</h2>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="Q0CbN8sfihY" data-toggle="modal" data-target="#trailer">
-    <img src="https://upload.wikimedia.org/wikipedia/en/7/7f/Star_Wars_The_Last_Jedi.jpg" width="220" height="342">
+    <img src="https://upload.wikimedia.org/wikipedia/en/7/7f/Star_Wars_The_Last_Jedi.jpg" width="220" height="342" class="poster-image">
     <h2>Star Wars: The Last Jedi</h2>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="6hB3S9bIaco" data-toggle="modal" data-target="#trailer">
-    <img src="https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg" width="220" height="342">
+    <img src="https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg" width="220" height="342" class="poster-image">
     <h2>The Shawshank Redemption</h2>
 </div>
 
